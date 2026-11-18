@@ -3,6 +3,8 @@ import youtube from "./MainImg/youtube 1.png"
 import twitter from "./MainImg/twitter 1.png"
 import pinterest from "./MainImg/pinterest 1.png"
 
+import "./Main.css"
+
 function Main() {
     return (
         <div>
@@ -20,6 +22,40 @@ function Main() {
                     <img src={twitter}/>
                     <img src={pinterest}/>
                 </div>
+            </div>
+            <div className="content_box">
+                <div className="content_box_filter">
+                    <h1>Filter Recipes</h1>
+                    <div>
+                        <h1>Diet</h1>
+                        <p>Dairy Free</p>
+                        <p>Egg Free</p>
+                        <p>Sugar Free</p>
+                        <p>Gluten Free</p>
+                    </div>
+                    <div>
+                        <h1>Allergies</h1>
+                        <p>Glutten</p>
+                        <p>Legumes</p>
+                        <p>Grain</p>
+                        <p>Fruite</p>
+                    </div>
+                    <div>
+                    <h1>Cusine </h1>
+                        <p>Asian</p>
+                        <p>Italian</p>
+                        <p>Chines</p>
+                        <p>Thai</p>
+                    </div>
+                    <div>
+                    <h1>Goals </h1>
+                        <p>Weight loss</p>
+                        <p>Freshness</p>
+                        <p>Activeness</p>
+                        <p>Rich Nutritions</p>
+                    </div>
+                </div>
+                <div className="content_box_cards"></div>
             </div>
         </div>
     )
