@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montez&family=Montserrat:wght@400;700&display=swap');
+* h1,h2,h3,p {
+    margin: 0;
+}
 
 .banner{
     width: 100%;
@@ -62,4 +65,246 @@
 .banner_social {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.content_box {
+    margin-top: 34px;
+    width: 100%;
+    display: flex;
+    background-image: url("./MainImg/fruits.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    justify-content: space-evenly;
+}
+
+
+
+.content_box_filter {
+    margin-left: 110px;
+    width: 233px;
+    height: 887px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content_box_filter > h1 {
+    font-family: 'Montez';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    color: #84BD00;
+}
+
+.content_box_filter{
+    gap: 50px;
+}
+
+.content_box_filter > div > h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #84BD00;
+}
+
+.green_p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #84BD00;
+}
+
+
+.content_box_filter > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+.content_box_cards {
+    width: 725px;
+    min-height: 1145px;
+    margin-right: 250px;
+}
+
+.content_box_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 62px;
+    border-top: 1px solid #D0C5C5;
+    border-bottom: 1px solid #D0C5C5;
+}
+
+.content_box_navigation > a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #84BD00;
+}
+
+.categoru_cards1, .categoru_cards2, .categoru_cards3 {
+    width: 750px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.categoru_cards1 > h1, .categoru_cards2 > h1, .categoru_cards3 > h1 {
+    font-family: 'Montez';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    color: #84BD00;
+}
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 216px;
+    cursor: pointer;
+    padding-bottom: 4px;
+    background-color: #e4e4e46e;
+    border-radius: 6px;
+}
+
+.img_box {
+    position: relative;
+}
+
+
+.card > .img_box > h1 {
+    right: 33%;
+    top: 70%;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Montez';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    color: #F5F5F5;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.card_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+}
+
+.card_title > h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.card_title_left {
+    max-width: 75%;
+}
+
+.card_title > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.card_title_righr {
+    min-width: 32px;
+    height: 16px;
+    background-color: #84BD00;
+    border-radius: 2px;
+}
+
+
+
+.card_time {
+    width: 100%;
+    height: 12px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_time > div > p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 3px;
+}
+
+.card_time > div {
+    display: flex;
+    align-items: center;
+}
+
+.card_time > p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
+
+.card_ocenks {
+    margin-top: 3px;
+    width: 100%;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_ocenks > div {
+    display: flex;
+    align-items: center;
+}
+
+.like_png {
+    margin-left: 12px;
+}
+
+.card_ocenka_left > p{
+    margin-left: 4px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
 }

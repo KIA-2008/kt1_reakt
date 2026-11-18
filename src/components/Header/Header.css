@@ -75,9 +75,11 @@ cursor: pointer;
     height: 53px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .header_profile > div {
     width: 53px;
     height: 56px;
+    cursor: pointer;
 }

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montez&family=Montserrat:wght@400;700&display=swap');
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 243px;
+    margin-top: 40px;
+    background-image: url("./FooterImg/fon.png");
+}
+
+* h1, p {
+    margin: 0;
+}
+
+.footer_left {
+    width: 194px;
+    height: 109px;
+    margin-left: 100px;
+}
+
+.footer_left > p {
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+color: #FFFFFF;
+}
+
+
+
+.footer_center {
+    width: 582px;
+    height: 180px;
+    display: flex;
+    margin-left: 225px;
+    gap: 30px;
+}
+
+.footer_center > div {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.footer_center > div > h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_center > div > a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff7e;
+}
+
+.footer_center > div > a:hover {
+   border-bottom: 1px solid white;
+}
+
+
+
+
+.footer_right{
+    width: 474px;
+    height: 160px;
+}
+
+.footer_right > h1 {
+    font-family: 'Montez';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.footer_input {
+    display: flex;
+    width: 410px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.footer_input > input {
+    width: 295px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.pochta_img{
+    cursor: pointer;
+}
+
+
+.footer_icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
